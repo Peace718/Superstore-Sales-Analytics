@@ -7,3 +7,40 @@ This project presents an interactive business intelligence dashboard built using
 The objective of this project is to transform raw retail transaction data into meaningful insights that support data-driven decision making. The dashboard analyzes key business metrics including revenue, profitability, customer behavior, regional sales distribution, and product performance.
 Through data modeling, DAX calculations, and interactive visualizations, the report provides stakeholders with a comprehensive view of business performance across multiple business dimensions.
 
+## Business Problem
+
+Retail organizations generate large volumes of transactional data across customers, products, and geographic regions. However, without proper analysis tools, it becomes difficult to extract meaningful insights that inform business strategy.
+This project addresses several key business questions:
+- What is the overall sales and profit performance of the company?
+- Which customer segments contribute the most revenue?
+- Which regions and states generate the highest profitability?
+- Which product categories drive the most sales?
+- How do discounts affect profit margins?
+The goal of this project is to build an interactive business intelligence dashboard that enables stakeholders to explore these questions through visual analytics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
