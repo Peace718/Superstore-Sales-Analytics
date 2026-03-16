@@ -21,17 +21,27 @@ This project addresses several key business questions:
 
 The goal of this project is to build an interactive business intelligence dashboard that enables stakeholders to explore these questions through visual analytics.
 
+## Dataset Description
+The Superstore dataset represents a fictional retail company and is structured using multiple related tables designed to simulate real-world business data.
 
+#### Orders
+Contains detailed transactional records including: Order ID, Order Date, Customer ID, Product ID, Quantity, Sales, Discount, Profit.
 
+#### Customers
+- Contains customer information including: Customer ID, Customer Name, Customer Segment.
+- Customer segments include: Consumer, Corporate, Home Office.
 
+#### Locations
+Contains geographic information including: City, State, Postal Code
 
+#### States
+Maps states to regional classifications: East, West, Central, South
 
+#### Products
+Contains product metadata including: Product Name, Category, Sub-Category, Pricing Code
 
-
-
-
-
-
+#### Product Pricing Tiers
+Contains pricing tier information connected to products using Pricing Code.
 
 
 
