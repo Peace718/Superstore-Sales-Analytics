@@ -96,7 +96,7 @@ reports/superstore_dashboard.pdf
 ## Key Insights
 Several strategic insights were derived from the analysis of sales, customer behavior, regional performance, and product trends:
 1. **Revenue is Strong, but Profitability is Relatively Low**: The business generated $2.30M in total sales, but only $286.40K in profit, resulting in a profit margin of 12%. This indicates that while revenue generation is strong, profitability is relatively constrained, suggesting potential inefficiencies in pricing, discounting, or cost structure.
-2. **Consumer Segment Dominates Customer Base and Revenue Contribution**: The Consumer segment accounts for over 51.58% of total customers, making it the largest customer group. Additionally, the Consumer segment also generates the highest total sales, indicating that business performance is heavily driven by individual consumers rather than corporate clients.
+2. **Consumer Segment Dominates Customer Base and Revenue Contribution**: The Consumer segment accounts for over 51.58% of total customers, making it the largest customer group. Additionally, the Consumer segment also generates the highest total sales, indicating that business performance is heavily driven by individual consumers rather than corporate and Home Office clients.
 3. **Extremely High Customer Retention Rate**: The dataset shows that 99.37% of customers are repeat customers, with only 0.63% being one-time buyers. This suggests strong customer retention and loyalty, which is a major strength of the business and a key driver of sustained revenue.
 4. **Revenue is Geographically Concentrated in Key States and Cities**: States such as California and New York generate the highest sales, while cities like New York City and Los Angeles have the highest order volumes. This indicates that revenue is highly concentrated in a few major markets, creating both growth opportunities and geographic dependency risks.
 5. **Technology Category is the Primary Revenue Driver**: The Technology category generates the highest total sales, outperforming Furniture and Office Supplies. This makes Technology the core revenue engine of the business.
@@ -105,21 +105,26 @@ Several strategic insights were derived from the analysis of sales, customer beh
 
 ## Business Recommendations
 Based on the insights derived from the analysis, the following strategic actions are recommended:
+
 1. **Optimize Discount Strategy to Improve Profitability**: The average discount rate is relatively high, while overall profit margin remains low.
 - Reduce excessive discounting, especially in low-margin categories.
 - Implement controlled or tiered discount strategies.
 - Use data-driven approaches to balance sales growth and profitability.
+
 2. **Invest in High-Performing Product Categories**: The Technology category is the primary revenue driver.
 - Increase focus on high-performing categories such as Technology
 - Expand inventory and promotional efforts for top-selling products
 - Prioritize high-margin sub-categories (e.g., Labels, Paper)
+
 3. **Leverage Strong Customer Retention**: With a very high repeat customer rate (~99%), the business has a strong loyalty base.
 - Introduce customer loyalty or reward programs
 - Use personalized marketing to increase customer lifetime value
 - Upsell and cross-sell to existing customers
+
 4. **Expand in High-Revenue Geographic Markets**: Sales are concentrated in key states and cities.
 - Increase marketing and operations in top-performing locations (e.g., California, New York)
 - Use high-performing regions as benchmarks for growth in other areas
+
 5. **Optimize Product Portfolio for Profitability**: There is significant variation in profit margins across product sub-categories.
 - Focus on high-margin products
 - Reassess pricing strategies for low-margin items
