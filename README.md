@@ -27,9 +27,9 @@ The Superstore dataset represents a fictional retail company and is structured u
 2. **Customers**:
 - Contains customer information including: Customer ID, Customer Name, Customer Segment.
 - Customer segments include: Consumer, Corporate, Home Office.
-3. **Locations**: Contains geographic information including: City, State, Postal Code
-4. **States**: Maps states to regional classifications: East, West, Central, South
-5. **Products**: Contains product metadata including: Product Name, Category, Sub-Category, Pricing Code
+3. **Locations**: Contains geographic information including: City, State, Postal Code.
+4. **States**: Maps states to regional classifications: East, West, Central, South.
+5. **Products**: Contains product metadata including: Product Name, Category, Sub-Category, Pricing Code.
 6. **Product Pricing Tiers**: Contains pricing tier information connected to products using Pricing Code.
 
 ## Data Modeling
@@ -74,11 +74,24 @@ The Power BI report contains four analytical dashboards.
 ## Dashboard Preview
 Below are previews of the dashboards included in the report.
 
+![Sales & Performance Report](sales_&_performance_report.png)
 
+![Customer Insights Report](customer_insights_report.png)
 
+![Regional & State Insight Report](regional_&_state_insight_report.png)
 
+![Product & Categories Performance Report](product_&_categories_performance_report.png)
 
+## Accessing the Interactive Dashboard
+Due to Power BI sharing limitations for personal accounts, the interactive dashboard is provided as a downloadable Power BI file.
+Users can download the report and open it using Microsoft Power BI Desktop to interact with the dashboards and explore the analysis.
+Download the report files below:
 
+#### Power BI Report File (.pbix)
+dashboards/superstore_dashboard.pbix
+
+#### PDF Version of the Report
+reports/superstore_dashboard.pdf
 
 
 
