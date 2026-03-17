@@ -116,32 +116,22 @@ Several strategic insights were derived from the analysis of sales, customer beh
 
 ## Business Recommendations
 Based on the insights derived from the analysis, the following strategic actions are recommended:
-1. **Optimize Discount Strategy to Improve Profitability**
-
-The average discount rate is relatively high, while overall profit margin remains low.
+1. **Optimize Discount Strategy to Improve Profitability**: The average discount rate is relatively high, while overall profit margin remains low.
 - Reduce excessive discounting, especially in low-margin categories.
 - Implement controlled or tiered discount strategies.
 - Use data-driven approaches to balance sales growth and profitability.
-2. **Invest in High-Performing Product Categories**
-
-The Technology category is the primary revenue driver.
+2. **Invest in High-Performing Product Categories**: The Technology category is the primary revenue driver.
 - Increase focus on high-performing categories such as Technology
 - Expand inventory and promotional efforts for top-selling products
 - Prioritize high-margin sub-categories (e.g., Labels, Paper)
-3. **Leverage Strong Customer Retention**
-
-With a very high repeat customer rate (~99%), the business has a strong loyalty base.
+3. **Leverage Strong Customer Retention**: With a very high repeat customer rate (~99%), the business has a strong loyalty base.
 - Introduce customer loyalty or reward programs
 - Use personalized marketing to increase customer lifetime value
 - Upsell and cross-sell to existing customers
-4. **Expand in High-Revenue Geographic Markets**
-
-Sales are concentrated in key states and cities.
+4. **Expand in High-Revenue Geographic Markets**: Sales are concentrated in key states and cities.
 - Increase marketing and operations in top-performing locations (e.g., California, New York)
 - Use high-performing regions as benchmarks for growth in other areas
-5. **Optimize Product Portfolio for Profitability**
-
-There is significant variation in profit margins across product sub-categories.
+5. **Optimize Product Portfolio for Profitability**: There is significant variation in profit margins across product sub-categories.
 - Focus on high-margin products
 - Reassess pricing strategies for low-margin items
 - Reduce reliance on underperforming products
