@@ -23,40 +23,58 @@ The goal of this project is to build an interactive business intelligence dashbo
 
 ## Dataset Description
 The Superstore dataset represents a fictional retail company and is structured using multiple related tables designed to simulate real-world business data.
-
-#### Orders
-Contains detailed transactional records including: Order ID, Order Date, Customer ID, Product ID, Quantity, Sales, Discount, Profit.
-
-#### Customers
+1. **Orders**: Contains detailed transactional records including: Order ID, Order Date, Customer ID, Product ID, Quantity, Sales, Discount, Profit.
+2. **Customers**:
 - Contains customer information including: Customer ID, Customer Name, Customer Segment.
 - Customer segments include: Consumer, Corporate, Home Office.
-
-#### Locations
-Contains geographic information including: City, State, Postal Code
-
-#### States
-Maps states to regional classifications: East, West, Central, South
-
-#### Products
-Contains product metadata including: Product Name, Category, Sub-Category, Pricing Code
-
-#### Product Pricing Tiers
-Contains pricing tier information connected to products using Pricing Code.
+3. **Locations**: Contains geographic information including: City, State, Postal Code
+4. **States**: Maps states to regional classifications: East, West, Central, South
+5. **Products**: Contains product metadata including: Product Name, Category, Sub-Category, Pricing Code
+6. **Product Pricing Tiers**: Contains pricing tier information connected to products using Pricing Code.
 
 ## Data Modeling
 The dataset is structured using a normalized relational data model designed to support multidimensional business analysis.
 The Orders table serves as the central fact table, containing transaction-level metrics such as sales, profit, quantity, and discounts. This table connects to several dimension tables that provide descriptive attributes for customers, products, and geographic locations.
 #### Key Relationships
 The following relationships were created in the data model:
-- Orders → Customers (Customer ID)
-- Orders → Products (Product ID)
-- Orders → Locations (Location ID)
-- Locations → States (State ID)
--Products → Product Pricing Tiers (Pricing Code)
+- Orders --- Customers (Customer ID)
+- Orders --- Products (Product ID)
+- Orders --- Locations (Location ID)
+- Locations --- States (State ID)
+-Products --- Product Pricing Tiers (Pricing Code)
 This relational structure enables analysis across multiple business dimensions including customer segments, product categories, pricing tiers, and geographic regions.
 
 ## Key Measures (DAX)
 Several key performance indicators were calculated using DAX.
+#### Total Sales
+Total Sales = SUM(Orders[Sales])
+
+#### Total Profit
+Total Profit = SUM(Orders[Profit])
+
+#### Order Count
+Order Count = DISTINCTCOUNT(Orders[Order ID])
+
+#### Average Discount
+Average Discount = AVERAGE(Orders[Discount])
+
+#### Customer Count
+Customer Count = DISTINCTCOUNT(Customers[Customer ID])
+
+#### Profit Margin
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
