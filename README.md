@@ -33,17 +33,27 @@ The Superstore dataset represents a fictional retail company and is structured u
 6. **Product Pricing Tiers**: Contains pricing tier information connected to products using Pricing Code.
 
 ## Data Modeling
-The dataset is structured using a normalized relational data model designed to support multidimensional business analysis.
-The Orders table serves as the central fact table, containing transaction-level metrics such as sales, profit, quantity, and discounts. This table connects to several dimension tables that provide descriptive attributes for customers, products, and geographic locations.
+The dataset is structured using a normalized relational data model designed to support efficient and scalable multidimensional analysis.
+
+The Orders table serves as the central fact table, capturing transactional metrics such as sales, profit, quantity, and discount. This table is connected to multiple dimension tables that provide descriptive context for customers, products, and geographic locations.
 #### Key Relationships
-The following relationships were created in the data model:
+The following relationships were established within the data model:
 - Orders --- Customers (Customer ID)
 - Orders --- Products (Product ID)
 - Orders --- Locations (Location ID)
 - Locations --- States (State ID)
 - Products --- Product Pricing Tiers (Pricing Code)
 
-This relational structure enables analysis across multiple business dimensions including customer segments, product categories, pricing tiers, and geographic regions.
+This relational structure enables flexible analysis across key business dimensions, including:
+- Customer segments and behavior
+- Product categories and pricing tiers
+- Regional and state-level performance
+- Sales and profitability metrics
+
+#### Data Model View
+Below is the data model diagram created in Microsoft Power BI Desktop, showing the relationships between the fact and dimension tables.
+
+
 
 ## Key Measures (DAX)
 Several key performance indicators were calculated using DAX.
