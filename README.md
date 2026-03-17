@@ -43,9 +43,20 @@ Contains product metadata including: Product Name, Category, Sub-Category, Prici
 #### Product Pricing Tiers
 Contains pricing tier information connected to products using Pricing Code.
 
+## Data Modeling
+The dataset is structured using a normalized relational data model designed to support multidimensional business analysis.
+The Orders table serves as the central fact table, containing transaction-level metrics such as sales, profit, quantity, and discounts. This table connects to several dimension tables that provide descriptive attributes for customers, products, and geographic locations.
+#### Key Relationships
+The following relationships were created in the data model:
+- Orders → Customers (Customer ID)
+- Orders → Products (Product ID)
+- Orders → Locations (Location ID)
+- Locations → States (State ID)
+-Products → Product Pricing Tiers (Pricing Code)
+This relational structure enables analysis across multiple business dimensions including customer segments, product categories, pricing tiers, and geographic regions.
 
-
-
+## Key Measures (DAX)
+Several key performance indicators were calculated using DAX.
 
 
 
