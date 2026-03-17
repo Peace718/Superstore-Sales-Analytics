@@ -53,7 +53,7 @@ This relational structure enables flexible analysis across key business dimensio
 #### Data Model View
 Below is the data model diagram created in Microsoft Power BI Desktop, showing the relationships between the fact and dimension tables.
 
-
+![Data Model View](data_model_view.png)
 
 ## Key Measures (DAX)
 Several key performance indicators were calculated using DAX.
