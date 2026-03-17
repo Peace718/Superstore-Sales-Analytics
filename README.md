@@ -2,6 +2,19 @@
 
 # Superstore Sales Analytics
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Dataset Description](#dataset-description)
+- [Data Modeling](#data-modeling)
+- [Key Measures (DAX)](#key-measures-dax)
+- [Dashboard Pages](#dashboard-pages)
+- [Dashboard Preview](#dashboard-preview)
+- [Accessing the Interactive Dashboard](#accessing-the-interactive-dashboard)
+- [Key Insights](#key-insights)
+- [Business Recommendations](#business-recommendations)
+
 ## Project Overview
 This project presents an interactive business intelligence dashboard built using Microsoft Power BI Desktop to analyze retail sales performance using the Superstore Normalized Dataset.
 The objective of this project is to transform raw retail transaction data into meaningful insights that support data-driven decision making. The dashboard analyzes key business metrics including revenue, profitability, customer behavior, regional sales distribution, and product performance.
