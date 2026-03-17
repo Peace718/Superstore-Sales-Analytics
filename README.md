@@ -91,7 +91,7 @@ Below are previews of the dashboards included in the report.
 
 ![Regional & State Insight Report](regional_&_state_insight_report.png)
 
-![Product & Categories Performance Report](product_&_categories_performance_report.png)
+![Product & Category Performance Report](product_&_category_performance_report.png)
 
 ## Accessing the Interactive Dashboard
 Due to Power BI sharing limitations for personal accounts, the interactive dashboard is provided as a downloadable Power BI file.
