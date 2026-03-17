@@ -41,7 +41,9 @@ The following relationships were created in the data model:
 - Orders --- Products (Product ID)
 - Orders --- Locations (Location ID)
 - Locations --- States (State ID)
+
 -Products --- Product Pricing Tiers (Pricing Code)
+
 This relational structure enables analysis across multiple business dimensions including customer segments, product categories, pricing tiers, and geographic regions.
 
 ## Key Measures (DAX)
