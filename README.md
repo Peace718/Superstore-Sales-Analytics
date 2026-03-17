@@ -64,11 +64,15 @@ Customer Count = DISTINCTCOUNT(Customers[Customer ID])
 #### Profit Margin
 Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
+## Dashboard Pages
+The Power BI report contains four analytical dashboards.
+1. **Sales & Performance Overview**: Provides a high-level overview of overall company performance including total sales, total profit, order volume, profit margin, and sales trends over time.
+2. **Customer Insights**: Analyzes customer behavior and segmentation, including top customers by revenue, customer distribution across segments, and repeat versus one-time customers.
+3. **Regional & State Insights**: Examines geographic performance across regions and states, highlighting revenue distribution, profit margins, and cities with the highest order volumes.
+4. **Product & Category Performance**: Evaluates product-level performance including revenue by category, best-selling products, profit margins by sub-category, and discount patterns across product categories.
 
-
-
-
-
+## Dashboard Preview
+Below are previews of the dashboards included in the report.
 
 
 
