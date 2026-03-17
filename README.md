@@ -57,23 +57,12 @@ Below is the data model diagram created in Microsoft Power BI Desktop, showing t
 
 ## Key Measures (DAX)
 Several key performance indicators were calculated using DAX.
-#### Total Sales
-Total Sales = SUM(Orders[Sales])
-
-#### Total Profit
-Total Profit = SUM(Orders[Profit])
-
-#### Order Count
-Order Count = DISTINCTCOUNT(Orders[Order ID])
-
-#### Average Discount
-Average Discount = AVERAGE(Orders[Discount])
-
-#### Customer Count
-Customer Count = DISTINCTCOUNT(Customers[Customer ID])
-
-#### Profit Margin
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
+1. **Total Sales** = SUM(Orders[Sales])
+2. **Total Profit** = SUM(Orders[Profit])
+3. **Order Count** = DISTINCTCOUNT(Orders[Order ID])
+4. **Average Discount** = AVERAGE(Orders[Discount])
+5. **Customer Count** = DISTINCTCOUNT(Customers[Customer ID])
+6. **Profit Margin** = DIVIDE([Total Profit], [Total Sales])
 
 ## Dashboard Pages
 The Power BI report contains four analytical dashboards.
