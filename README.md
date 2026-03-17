@@ -83,15 +83,15 @@ Below are previews of the dashboards included in the report.
 ![Product & Category Performance Report](product_&_category_performance_report.png)
 
 ## Accessing the Interactive Dashboard
-Due to Power BI sharing limitations for personal accounts, the interactive dashboard is provided as a downloadable Power BI file.
-Users can download the report and open it using Microsoft Power BI Desktop to interact with the dashboards and explore the analysis.
-Download the report files below:
 
-#### Power BI Report File (.pbix)
-dashboards/superstore_dashboard.pbix
+The interactive dashboard is available as a downloadable file due to Power BI sharing limitations.
 
-#### PDF Version of the Report
-reports/superstore_dashboard.pdf
+- 📊 [Download the Full Project Report (.pbix)](./superstore_sales_analytics.pbix)  
+- 📄 [Download the Full Project Report (PDF)](./superstore_sales_analytics.pdf)
+
+To explore the dashboard interactively, open the `.pbix` file using Microsoft Power BI Desktop.
+
+> Note: After clicking a file, use the **Download** button on GitHub to save it locally.
 
 ## Key Insights
 Several strategic insights were derived from the analysis of sales, customer behavior, regional performance, and product trends:
